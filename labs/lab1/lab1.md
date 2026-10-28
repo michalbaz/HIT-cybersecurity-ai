@@ -19,13 +19,7 @@
   encrypted the results and sent them to an attacker-controlled web endpoint.
 
   ## The Attack Flow:
-  **[Initial Access]** Victim installs the compromised `LiteLLM 1.107.0` Python package.
-⬇️
-**[Execution / Persistence]** Malicious package installs Python startup hooks, triggering execution when Python starts.
-⬇️
-**[Credential Access]** Malware scans the local system for SSH keys, cloud credentials, and browser data.
-⬇️
-**[Command & Control / Exfiltration]** Malware encrypts stolen data and transmits it to a remote C2 server, checking a remote GitHub file for C2 updates.
+  ![LiteLLM Attack Flow](../misc/lab1_diagram.png)
 
   ## MITRE ATT&CK Mapping and connection to the SOC investigation:
 
