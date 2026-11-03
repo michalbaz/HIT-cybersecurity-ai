@@ -36,7 +36,7 @@
 * **Explanation:** 3 new attempts were added, all from the same source IP. Together they reached the failed attemp threshold and a new finding appeared.
 
 ### C4
-![Dashboard screenshot](../misc/lab1a_c3.png)
+![Dashboard screenshot](../misc/lab1a_c4.png)
 * **Changed log lines:** Appended one synthetic record containing `INFO Network scan detected` from a new IP (`192.0.2.77`).
 * **Predicted:** an additional T1046 finding
 * **Actual result:** an additional T1046 finding
