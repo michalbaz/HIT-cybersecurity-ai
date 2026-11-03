@@ -3,8 +3,8 @@
 
 ## Docker Verification & Initial Findings
   ![Dashboard screenshot](../misc/lab1a_dashboard.png)
-  Initial Finding Count: The clean baseline log produced exactly 2 findings, 'T1110 Brute Force' and 'T1046 Network Service Discovery'.
-  In this lab we used custom local files for the log (security.log), the findings (findings.json), and a MITRE ATT&CK STIX knowledge file.
+  **Initial Finding Count:** The clean baseline log produced exactly 2 findings, 'T1110 Brute Force' and 'T1046 Network Service Discovery'. 
+  **Lab Configuration:** All lab activities were performed in an isolated local environment using the supplied `security.log`, `findings.json`, and offline MITRE STIX data.
 
 ## Evidence Mapping Table
 | Evidence | Rule | Technique | Tactic | Uncertainty |
